@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+html {
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	background-color: #C0C0C0;
+} /*rule_set*/
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+	text-shadow: 2px 2px 1px black; /*그림자의 기본색상*/
+}
+
+p.li {
+	font-size: 20px;
+	line-height: 2;
+	letter-spacing: 1px; /*택스트 간격*/
+}
+
+body {
+	width: 600px;
+	margin: 0 auto; /*0은 상단과 하단 auto는 좌측과 우측*/
+	background-color: white;
+	padding: 0 20px 20px 20px; /*12시부터 시계방향 순으로 설정*/ 
+	border: 3px solid black /*body경계선에 5픽셀의 실선*/
+}
+
+img {
+	display: block; /*blck_level설정 */
+	margin: 0 auto;
+}
